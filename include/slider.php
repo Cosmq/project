@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <?php
 
-$connect = mysqli_connect("localhost:3306", "mwakefield1", "weweti", "mwakefield1");
+$connect = mysqli_connect("localhost:3306", "mwakefield1", "", "mwakefield1");
 function make_query($connect)
 {
  $query = "SELECT * FROM slider ORDER BY slider_order ASC";
