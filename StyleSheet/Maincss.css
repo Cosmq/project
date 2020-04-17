@@ -1,0 +1,121 @@
+/*Michael Wakefield 3rd Year Project CSS */
+/* */
+body{
+    font-size: 14px;
+    list-style: none;
+    color:#333333;
+    background: #fff;
+    overflow-x: hidden;
+    padding-bottom: 1000px;
+}
+/*Top Customer Menu Style*/
+#top{
+    background:#333;
+    padding:10px 0;
+}
+/*Changes the color for the ancor tags*/
+#top a{
+    color: #ffffff;
+}
+/*controller the customer account buttons*/
+#top ul.menu{
+    padding-top:5px;
+    margin:0px;
+    text-align:right;
+    font-size:12px;
+    list-style:none;
+}
+@media(max-width:991px){
+    #top ul.menu{
+        text-align:center;
+        
+    }
+}
+#top ul.menu> li{
+    display: inline-block;
+    
+}
+/*ancor text color*/
+#top ul.menu> li a{
+    color: #eeeeee
+}
+#top ul.menu> li + li:before{
+    content: "|\00a0";
+    color:#f7f7f7;
+    padding: 0 5px;
+}
+
+/* The navigation menu Start*/
+.navbar {
+  overflow: hidden;
+  background-color: lightgrey;
+}
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*Footer*/
+#footer{
+    background: #e0e0e0;
+    padding: 10px 0;
+}
+#footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#footer a{
+    color: #999999;
+    padding: 0;
+    text-decoration: none;
+}
+#footer ul a:hover{
+    color: #666666;
+}
+#footer .social{
+    text-align: left;
+    
+}
+#footer .social a{
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    background: #808080;
+    text-decoration: none;
+}
+#footer .social a:hover{
+    color: #dedede;
+    background: #777777;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 15px 22px;
+    margin: 20px 10px;
+    box-sizing: border-box;  
+}
+input[type=password] {
+    width: 30%;
+    padding: 15px 22px;
+    margin: 20px 10px;
+    box-sizing: border-box;  
+}
+textarea {
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+textarea:focus {
+    width: 30%;
+}
